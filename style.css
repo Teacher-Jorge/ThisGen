@@ -3,24 +3,23 @@
     padding: 10px;
     margin: 0 auto;
     text-align: center;
-    background-color: aliceblue;
 }
 
 .heading {
-    font-size: 30px;
+    font-size: clamp(2rem, 7vw, 3rem);
     color: rgb(0, 73, 138);
 }
 
 .paragraph {
-    width: min(500px, 95%);
+    width: clamp(600px, 50vw, 1000px);
     height: 50vh;
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
 }
 
 .scriptures {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     justify-content: center;
     padding: 0;
 }
@@ -29,16 +28,26 @@
     width: 50px;
     height: 40px;
     position: relative;
-    bottom: 0px;
-    left: 1000px;
+    bottom: -50px;
+    left: 155px;
     border: 1px solid rgb(153, 165, 175);
+    box-shadow: 1px 1px 2px black;
+}
+
+.next:active {
+    box-shadow: none;
 }
 
 .back {
     width: 50px;
     height: 40px;
     position: relative;
-    bottom: 40px;
-    left: 122px;
+    bottom: -50px;
+    left: 160px;
     border: 1px solid rgb(153, 165, 175);
+    box-shadow: 1px 1px 2px black;
+}
+
+.back:active {
+    box-shadow: none;
 }
