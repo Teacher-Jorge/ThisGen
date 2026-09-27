@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: rgb(0, 73, 138);
+}
+
+.paragraph {
+    max-width: 500px;
+    border: 1px solid rgb(0, 136, 255);
+    font-size: 24px;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+.scriptures {
+    font-weight: 600;
+}
+
+.next {
+    width: 50px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    left: 225px;
+    border: 1px solid rgb(153, 165, 175);
+}
+
+.back {
+    width: 50px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    left: 122px;
+    border: 1px solid rgb(153, 165, 175);
+}
